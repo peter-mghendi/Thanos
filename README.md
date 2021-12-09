@@ -145,7 +145,7 @@ Change to the project dir:
 
 Run tests:
 
-> This requires the .NET 9 SDK.
+> This requires the .NET 6 SDK.
 
 ```bash
     dotnet test
