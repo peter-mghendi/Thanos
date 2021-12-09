@@ -29,10 +29,10 @@ Thanos can be installed from [NuGet](#) via the dotnet CLI.
 
 ```csharp
     // A new mad titan called Thanos.
-    MadTitan thanos = new();
+    var thanos = new MadTitan();
 
     // Forge a new Infinity Gauntlet.
-    InfinityGauntlet gauntlet = new();
+    var gauntlet = new InfinityGauntlet();
 
     // Give Thanos the gauntlet
     // You may choose to add the stones then give Thanos the gauntlet.
@@ -49,7 +49,7 @@ Thanos can be installed from [NuGet](#) via the dotnet CLI.
 
     // The Snappening
     // This won't work if Thanos doesn't have a gauntlet or all the stones.
-    thanos.Snap(location: "C:/Windows"); // LOL, don't actually do this.
+    _ = thanos.Snap(location: "C:/Windows"); // LOL, don't actually do this.
 ```
 
 Alternatively, go straight to The Snappening:
@@ -85,7 +85,7 @@ Alternatively, go straight to The Snappening:
 
     // The Snappening
     // This won't work if Thanos doesn't have a gauntlet or all the stones.
-    thanos.Snap "C:/Windows" // LOL, don't actually do this.
+    thanos.Snap "C:/Windows" |> ignore // LOL, don't actually do this.
 ```
 
 Alternatively, go straight to The Snappening:
@@ -108,25 +108,25 @@ Alternatively, go straight to The Snappening:
     ' Give Thanos the gauntlet
     ' You may choose to add the stones then give Thanos the gauntlet.
     ' The most important thing is that everything is in place before calling Snap() 
-    thanos.Give(gauntlet: gauntlet)
+    thanos.Give(gauntlet)
 
     ' Add the Infinity Stones.
-    gauntlet.Add(stone: New SpaceStone)
-    gauntlet.Add(stone: New MindStone)
-    gauntlet.Add(stone: New RealityStone)
-    gauntlet.Add(stone: New PowerStone)
-    gauntlet.Add(stone: New TimeStone)
-    gauntlet.Add(stone: New SoulStone)
+    gauntlet.Add(New SpaceStone)
+    gauntlet.Add(New MindStone)
+    gauntlet.Add(New RealityStone)
+    gauntlet.Add(New PowerStone)
+    gauntlet.Add(New TimeStone)
+    gauntlet.Add(New SoulStone)
 
     ' The Snappening
     ' This won't work if Thanos doesn't have a gauntlet or all the stones.
-    thanos.Snap(location: "C:/Windows") ' LOL, don't actually do this.
+    thanos.Snap("C:/Windows") ' LOL, don't actually do this.
 ```
 
 Alternatively, go straight to The Snappening:
 
 ```vbnet
-    MadTitan.Snappen(location: "C:/Windows") ' Use a different folder!!
+    MadTitan.Snappen("C:/Windows") ' Use a different folder!!
 ```
 
 ## Running Tests
@@ -135,6 +135,12 @@ Clone the repository:
 
 ```bash
     git clone https://github.com/sixpeteunder/Thanos.git
+```
+
+or
+
+```bash
+    gh clone sixpeteunder/Thanos
 ```
 
 Change to the project dir:
