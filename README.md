@@ -37,15 +37,15 @@ Thanos can be installed from [NuGet](#) via the dotnet CLI.
     // Give Thanos the gauntlet
     // You may choose to add the stones then give Thanos the gauntlet.
     // The most important thing is that everything is in place before calling Snap() 
-    thanos.Give(gauntlet: infinityGauntlet);
+    thanos.Give(gauntlet: gauntlet);
 
     // Add the Infinity Stones.
-    infinityGauntlet.Add(stone: new SpaceStone());
-    infinityGauntlet.Add(stone: new MindStone());
-    infinityGauntlet.Add(stone: new RealityStone());
-    infinityGauntlet.Add(stone: new PowerStone());
-    infinityGauntlet.Add(stone: new TimeStone());
-    infinityGauntlet.Add(stone: new SoulStone());
+    gauntlet.Add(stone: new SpaceStone());
+    gauntlet.Add(stone: new MindStone());
+    gauntlet.Add(stone: new RealityStone());
+    gauntlet.Add(stone: new PowerStone());
+    gauntlet.Add(stone: new TimeStone());
+    gauntlet.Add(stone: new SoulStone());
 
     // The Snappening
     // This won't work if Thanos doesn't have a gauntlet or all the stones.
@@ -73,15 +73,15 @@ Alternatively, go straight to The Snappening:
     // Give Thanos the gauntlet
     // You may choose to add the stones then give Thanos the gauntlet.
     // The most important thing is that everything is in place before calling Snap() 
-    thanos.Give infinityGauntlet;
+    thanos.Give gauntlet;
 
     // Add the Infinity Stones.
-    infinityGauntlet.Add (new SpaceStone())
-    infinityGauntlet.Add (new MindStone())
-    infinityGauntlet.Add (new RealityStone())
-    infinityGauntlet.Add (new PowerStone())
-    infinityGauntlet.Add (new TimeStone())
-    infinityGauntlet.Add (new SoulStone())
+    gauntlet.Add (new SpaceStone())
+    gauntlet.Add (new MindStone())
+    gauntlet.Add (new RealityStone())
+    gauntlet.Add (new PowerStone())
+    gauntlet.Add (new TimeStone())
+    gauntlet.Add (new SoulStone())
 
     // The Snappening
     // This won't work if Thanos doesn't have a gauntlet or all the stones.
@@ -108,15 +108,15 @@ Alternatively, go straight to The Snappening:
     ' Give Thanos the gauntlet
     ' You may choose to add the stones then give Thanos the gauntlet.
     ' The most important thing is that everything is in place before calling Snap() 
-    thanos.Give(gauntlet: infinityGauntlet)
+    thanos.Give(gauntlet: gauntlet)
 
     ' Add the Infinity Stones.
-    infinityGauntlet.Add(stone: New SpaceStone)
-    infinityGauntlet.Add(stone: New MindStone)
-    infinityGauntlet.Add(stone: New RealityStone)
-    infinityGauntlet.Add(stone: New PowerStone)
-    infinityGauntlet.Add(stone: New TimeStone)
-    infinityGauntlet.Add(stone: New SoulStone)
+    gauntlet.Add(stone: New SpaceStone)
+    gauntlet.Add(stone: New MindStone)
+    gauntlet.Add(stone: New RealityStone)
+    gauntlet.Add(stone: New PowerStone)
+    gauntlet.Add(stone: New TimeStone)
+    gauntlet.Add(stone: New SoulStone)
 
     ' The Snappening
     ' This won't work if Thanos doesn't have a gauntlet or all the stones.
