@@ -1,4 +1,4 @@
-![Banner](Images/Banner.png)
+![Banner](https://media.githubusercontent.com/media/sixpeteunder/Thanos/main/Images/Banner.png)
 
 # Thanos
 
