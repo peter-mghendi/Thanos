@@ -23,6 +23,8 @@ Thanos can be installed from [NuGet](#) via the dotnet CLI.
 
 ## Usage
 
+There are also complete, safe, runnable samples [here](https://github.com/sixpeteunder/Thanos.samples).
+
 ### C#
 
 > These examples use C# 10 syntax.
