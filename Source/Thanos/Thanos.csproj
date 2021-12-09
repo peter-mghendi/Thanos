@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Build">
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <Product>Thanos</Product>
+    <Description>This universe is finite, its resources, finite.</Description>
+    <PackageTags>thanos</PackageTags>
+  </PropertyGroup>
+
+</Project>
